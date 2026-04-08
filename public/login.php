@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body class="bg-light d-flex justify-content-center align-items-center vh-100">
 
 <div class="card shadow p-4" style="width: 380px;">
-    <h3 class="text-center mb-3 fw-bold">Ingreso al LMS</h3>
+    <h3 class="text-center mb-3 fw-bold">Programa Académico Zénit</h3>
 
     <?php if ($error): ?>
         <div class="alert alert-danger"><?= htmlspecialchars($error) ?></div>
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <hr>
 
     <p class="text-muted small text-center mb-0">
-        Acceso restringido para estudiantes y docentes
+        Ingrese con su usuario y contraseña
     </p>
 </div>
 
