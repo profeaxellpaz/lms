@@ -1,8 +1,8 @@
 <?php
-require_once __DIR__ . "/../app/middleware/auth.php";
+require_once __DIR__ . "/../../app/middleware/auth.php";
 require_role("teacher");
 
-require_once __DIR__ . "/../app/views/header.php";
+require_once __DIR__ . "/../../app/views/header.php";
 ?>
 
 <h2 class="fw-bold">Panel del Profesor</h2>
@@ -14,4 +14,4 @@ require_once __DIR__ . "/../app/views/header.php";
     <button class="btn btn-dark btn-sm" disabled>Próximamente</button>
 </div>
 
-<?php require_once __DIR__ . "/../app/views/footer.php"; ?>
+<?php require_once __DIR__ . "/../../app/views/footer.php"; ?>

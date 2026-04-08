@@ -1,8 +1,8 @@
 <?php
-require_once __DIR__ . "/../app/middleware/auth.php";
+require_once __DIR__ . "/../../app/middleware/auth.php";
 require_role("admin");
 
-require_once __DIR__ . "/../app/views/header.php";
+require_once __DIR__ . "/../../app/views/header.php";
 ?>
 
 <h2 class="fw-bold">Panel del Administrador</h2>
@@ -36,4 +36,4 @@ require_once __DIR__ . "/../app/views/header.php";
 
 </div>
 
-<?php require_once __DIR__ . "/../app/views/footer.php"; ?>
+<?php require_once __DIR__ . "/../../app/views/footer.php"; ?>

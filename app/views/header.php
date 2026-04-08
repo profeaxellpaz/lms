@@ -24,7 +24,7 @@ if (session_status() === PHP_SESSION_NONE) {
                 <span class="navbar-text text-white me-3">
                     <?= htmlspecialchars($_SESSION["name"]) ?> (<?= htmlspecialchars($_SESSION["role"]) ?>)
                 </span>
-                <a href="../public/logout.php" class="btn btn-outline-light btn-sm">Salir</a>
+                <a href="../logout.php" class="btn btn-outline-light btn-sm">Salir</a>
             <?php endif; ?>
         </div>
     </div>
